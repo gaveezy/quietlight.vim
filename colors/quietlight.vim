@@ -22,14 +22,14 @@ let g:colors_name = "quietlight"
 
 let s:palette = {'gui' : {} , 'cterm' : {}}
 
-let s:gui_background = "#f5f5f5"
+let s:gui_background = "#eaeaea"
 let s:gui_foreground = "#333333"
 let s:gui_selection  = "#a1a8b1"
 let s:gui_line       = "#e4f6d4"
 let s:gui_comment    = "#aaaaaa"
 
 let s:gui_white  = "#ffffff"
-let s:gui_red    = "#aa3731"
+let s:gui_red    = "#990000"
 let s:gui_orange = "#ab6526"
 let s:gui_yellow = "#ffe055"
 let s:gui_green  = "#448c27"
@@ -289,9 +289,9 @@ exe "hi! SpellCap"          .s:fg_darkblue    .s:bg_none      .s:fmt_undr
 exe "hi! SpellLocal"        .s:fg_aqua        .s:bg_darkcyan      .s:fmt_undr
 exe "hi! SpellBad"          .s:fg_darkred     .s:bg_none          .s:fmt_undr
 exe "hi! SpellRare"         .s:fg_purple      .s:bg_darkpurple    .s:fmt_undr
-exe "hi! StatusLine"        .s:fg_mauve       .s:bg_statusline    .s:fmt_revr
+exe "hi! StatusLine"        .s:fg_red         .s:bg_statusline    .s:fmt_revr
 exe "hi! StatusLineNC"      .s:fg_lightmauve  .s:bg_statuslinenc  .s:fmt_revr
-exe "hi! StatusLineTerm"    .s:fg_mauve       .s:bg_statusline    .s:fmt_revr
+exe "hi! StatusLineTerm"    .s:fg_red         .s:bg_statusline    .s:fmt_revr
 exe "hi! StatusLineTermNC"  .s:fg_lightmauve  .s:bg_statuslinenc  .s:fmt_revr
 exe "hi! TabLine"           .s:fg_foreground  .s:bg_comment       .s:fmt_none
 exe "hi! TabLineFill"       .s:fg_background  .s:bg_background    .s:fmt_revr
