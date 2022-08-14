@@ -25,7 +25,7 @@ let s:palette = {'gui' : {} , 'cterm' : {}}
 let s:gui_background = "#eaeaea"
 let s:gui_foreground = "#333333"
 let s:gui_selection  = "#a1a8b1"
-let s:gui_line       = "#e4f6d4"
+let s:gui_line       = "#ccccff"
 let s:gui_comment    = "#aaaaaa"
 
 let s:gui_white  = "#ffffff"
